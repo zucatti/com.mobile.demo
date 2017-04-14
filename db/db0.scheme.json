@@ -16,12 +16,12 @@
                     "type": "counter"
                 },
                 "CreatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 },
                 "UpdatedAt": {
-                    "required": false,
+                    "required": true,
                     "type": "datetime",
                     "dbtype": "timestamp"
                 }
