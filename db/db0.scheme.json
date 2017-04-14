@@ -1,0 +1,32 @@
+{
+    "db": "db0",
+    "tables": [
+        "Table1"
+    ],
+    "table": {
+        "Table1": {
+            "fields": [
+                "Id",
+                "CreatedAt",
+                "UpdatedAt"
+            ],
+            "field": {
+                "Id": {
+                    "required": true,
+                    "type": "counter"
+                },
+                "CreatedAt": {
+                    "required": false,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                },
+                "UpdatedAt": {
+                    "required": false,
+                    "type": "datetime",
+                    "dbtype": "timestamp"
+                }
+            },
+            "key": "Id"
+        }
+    }
+}
