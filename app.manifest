@@ -76,7 +76,5 @@
     "livereload": {
         "port": 3030
     },
-    "db": [
-        "db0"
-    ]
+    "db": []
 }
